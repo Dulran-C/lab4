@@ -8,12 +8,12 @@
 
 <ol>
     @for(pres of presidents; track pres){
-        <li>{{pres}}</li>
+        <li>{{pres}}</li> 
     }
 </ol>
 
 <ul>
-    @for(president of mypresidents; track president.name){
+    @for(president of mypresidents; track president.name){ <!--to show list of names and terms -->
         <li>{{president.name}},{{president.term}}</li>
     }
 </ul>
