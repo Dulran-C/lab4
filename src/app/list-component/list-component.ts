@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
   templateUrl: './list-component.html',
   styleUrl: './list-component.css',
 })
-export class ListComponent {
+export class ListComponent { <!--list of names and terms-->
   presidents: string[] = ["Higgins", "McAleese", "Robinson", "Hillery"];
   mypresidents: any[] =
     [{ name: "Higgins", term: "2011-2025" },
